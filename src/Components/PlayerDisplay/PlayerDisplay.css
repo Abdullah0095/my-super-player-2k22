@@ -1,0 +1,25 @@
+#playerCard{
+    border: 3px solid rgb(58, 52, 52);
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    float: left;
+    background-color: rgb(50, 63, 73);
+    color: white;
+    height: 450px;
+    
+}
+#playerCard img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+#playerCard:hover{
+    background-color: rgb(77, 177, 107);
+    color: black;
+    background-image: linear-gradient(to left, rgb(77, 177, 107) ,rgb(6, 104, 33) , rgb(65, 65, 13));
+}
