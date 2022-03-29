@@ -22,7 +22,7 @@ const PlayerDisplay = () => {
             <div id='playerCard'>
                 <img src={props.player.url} alt="" />
                 <h1>{props.player.name}</h1>
-                <h2>{props.player.role}</h2>
+                <h3>{props.player.role}</h3>
                 <p>AGE: {props.player.age}</p>
                 <p>ACHIEVEMENT: {props.player.achievement}</p>
                 <p>SALARY: {props.player.salary}</p>
