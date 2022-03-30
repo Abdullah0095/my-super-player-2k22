@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import playersData from '../PlayersData/PlayersData';
 import './PlayerDisplay.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 const PlayerDisplay = () => {
 
     const [players, setPlayers] = useState(playersData);
@@ -26,6 +29,9 @@ const PlayerDisplay = () => {
                 <p>AGE: {props.player.age}</p>
                 <p>ACHIEVEMENT: {props.player.achievement}</p>
                 <p>SALARY: {props.player.salary}</p>
+                <button id='cartbtn'><FontAwesomeIcon icon={['fas', '']} />Add to cart</button>
+                
+                
             </div>
 
         );
