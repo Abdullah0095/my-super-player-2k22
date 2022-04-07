@@ -1,11 +1,16 @@
 import './App.css';
+
 import PlayerDisplay from './Components/PlayerDisplay/PlayerDisplay';
 
 function App() {
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>My Dream 11 players selection</h1>
-      <PlayerDisplay/>
+      
+      <div>
+        <div ><PlayerDisplay/></div>
+        
+      </div>
     </div>
   );
 }
